@@ -43,12 +43,12 @@ class TestCalculator(unittest.TestCase):
   def test_TenDividedByTenIsOne(self):
       ten = Calculator(10)
       self.assertEqual(1, ten.divide(10))
-      """
+      
   def test_OneDividedByZeroIsError(self):
       one = Calculator(0)
       with self.assertRaises(ZeroDivisionError):
           one.divide(0)
-          
+      """ 
   def test_FiveSquaredIsTwentyfive(self):
       five = Calculator(5)
       self.assertEqual(25, five.square())
