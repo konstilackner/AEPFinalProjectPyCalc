@@ -23,11 +23,11 @@ class TestCalculator(unittest.TestCase):
   def test_ZeroTimesTenIsZero(self):
       zero = Calculator(0)
       self.assertEqual(0, zero.multiply(10))
-      """
+      
   def test_OneTimesFiveIsFive(self):
       one = Calculator(1)
       self.assertEqual(5, one.multiply(5))
-
+"""
   def test_FiveTimesFiveIsTwentyfive(self):
       five = Calculator(5)
       self.assertEqual(25, five.multiply(5))
